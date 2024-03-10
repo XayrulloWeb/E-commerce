@@ -98,9 +98,15 @@ function ProductTrand(props) {
                                 return(
                                     <div className="product_trand-box" key={item.id}>
                                         <div className="product_trand-img">
-                                            <img src={item.img} alt="product"/>
+                                            <div className="product_img">
+                                                <img src={item.img} alt="product"/>
+
+                                            </div>
                                             <p>{item.name}</p>
-                                            <span>${item.price}</span>
+                                            <span className="product_span">${item.price}</span>
+                                            <div className="product_icons">
+                                                <button>Add To Cart</button>
+                                            </div>
                                         </div>
                                     </div>
                                 )
@@ -118,9 +124,15 @@ function ProductTrand(props) {
                                 return(
                                     <div className="product_trand-box" key={item.id}>
                                         <div className="product_trand-img">
-                                            <img src={item.img} alt="product"/>
+                                            <div className="product_img">
+                                                <img src={item.img} alt="product"/>
+
+                                            </div>
                                             <p>{item.name}</p>
                                             <span>${item.price}</span>
+                                        </div>
+                                        <div className="product_icons">
+                                            <button>Add To Cart</button>
                                         </div>
                                         <span className="sale">Sale</span>
                                     </div>

@@ -5,6 +5,7 @@ import Pricing from "./Components/Pricing/Pricing";
 import Confirmation from "./Components/Confirmation/Confirmation"
 import Cart from "./Components/Cart/Cart";
 import Contact from "./Components/Contact/Contact";
+import Login from "./Components/Login/Login";
 const routes = [
     {
 
@@ -48,6 +49,13 @@ const routes = [
         path: '/contact',
         component: Contact,
     },
+    {
+
+        id:8,
+        path: '/login',
+        component: Login,
+    },
+
 
 
 

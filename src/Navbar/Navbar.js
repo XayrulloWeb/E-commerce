@@ -16,13 +16,16 @@ function Navbar(props) {
                                <img src={phone} alt="call"/>
                                <span>+99890-000-00-00</span>
                            </div>
-                           <img className="logo" src={logo} alt="logo"/>
+                           <Link to={'/'}>                           <img className="logo" src={logo} alt="logo"/>
+                           </Link>
 
                            <div className="navbar_about-btns">
-                               <div className="navbar_about-cart center">
-                                   <img src={cart} alt="cart"/>
-                                   <span>Cart</span>
-                               </div>
+                                   <div className="navbar_about-cart center">
+                                       <img src={cart} alt="cart"/>
+                                       <span>Cart</span>
+                                   </div>
+
+
                                <div className="navbar_about-search center">
                                    <img src={search} alt="search"/>
                                    <span>Search</span>
@@ -93,7 +96,7 @@ function Navbar(props) {
                                        <div className="shop-content-right">
                                            <span>Utility</span>
                                            <div className="shop-content-list">
-                                               <Link to={'/'}>Login Page</Link>
+                                               <Link to={'/login'}>Login Page</Link>
                                                <Link to={'/'}>Signin Page</Link>
                                                <Link to={'/'}>Forget Password</Link>
                                            </div>
