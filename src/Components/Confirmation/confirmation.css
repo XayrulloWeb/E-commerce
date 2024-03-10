@@ -1,0 +1,47 @@
+
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+}
+
+
+.payment button{
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 6px;
+    border: none;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
+
+.payment h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+.payment img{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+
+}
+
+.payment p{
+    color: #757575;
+    font-size: 15px;
+}

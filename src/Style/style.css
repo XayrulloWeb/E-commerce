@@ -1,0 +1,42 @@
+@import url('../Components/Home/home.css');
+@import url('../Components/Products/product.css');
+@import url('../Components/Checkout/checkout.css');
+@import url('../Components/Cart/cart.css');
+@import url('../Components/Contact/contact.css');
+@import url('../Components/Pricing/pricing.css');
+@import url('../Components/Confirmation/confirmation.css');
+@import url("../Navbar/navbar.css");
+@import url("../Footer/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+.banner{
+    background: #f5f5f5;
+    margin-top: 20px;
+    border-bottom: none;
+    padding: 30px 0;
+}
+.banner-links{
+    display: flex;
+    gap: 10px;
+}
+.banner_start h1{
+    font-weight: 200;
+    margin: 0 0 16px 0;
+    font-size: 36px;
+}
+.banner-links span{
+    color: #ccc;
+}
