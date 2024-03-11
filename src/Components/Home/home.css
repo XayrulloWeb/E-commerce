@@ -34,7 +34,6 @@
     cursor: pointer;
     position: relative;
     z-index: 3;
-    opacity: 0;
     transition: .4s ease-in;
 }
 

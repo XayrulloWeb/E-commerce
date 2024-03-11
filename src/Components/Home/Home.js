@@ -20,7 +20,6 @@ function Home(props) {
         const navbarLeftTextAnimation = gsap.from('.home_btn', {
             duration: .6,
             ease: "power1.out",
-            opacity:1,
             y:30,
         });
 
