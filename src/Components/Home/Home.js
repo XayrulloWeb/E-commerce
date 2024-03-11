@@ -21,7 +21,7 @@ function Home(props) {
             duration: .6,
             ease: "power1.out",
             opacity:1,
-            y:-50,
+            y:30,
         });
 
 
